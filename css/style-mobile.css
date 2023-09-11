@@ -1,0 +1,139 @@
+/*Tamanho padrão para tablets*/
+@media only screen and (max-width: 768px) {
+   
+}
+
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 390px) {
+    .navbar-brand img {
+        width: 76px;
+        position: relative;
+        bottom: 79px;
+        left: 30px;
+        z-index: 2;
+    }
+    .navbar-toggler {
+        position: relative;
+        left: 300px;
+    }
+    .nav-link {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-top: #CCC 1px solid;
+    }
+    .nav-link:last-child {
+        border-bottom: #CCC 1px solid;
+    }
+    .nav-link:hover {
+        transition: 0.5s;
+        opacity: 0.4;
+    }
+    .carousel-inner {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    }
+    footer .row-vermelha {
+        height: 300px;
+    }
+    footer .drive-thru {
+        border-bottom: #CCC 1px solid;
+    }
+    footer .drive-thru h4 {
+        top: 29px;
+        left: 0;
+    }
+    footer .reserve {
+        height: fit-content;
+        left: auto;
+        border-bottom: #CCC 1px solid;
+    }
+    footer .reserve h4{
+        position: relative;
+        left: 46px;
+        bottom: 8px;
+    }
+    footer .reserve i {
+        position: relative;
+        left: 36px;
+        top: -6px;
+    }
+    footer .lojas {
+        height: fit-content;
+    }
+    footer .lojas button {
+        position: relative;
+        bottom: 38px;
+        left: 84px;
+    }
+    footer .row-vermelha-clara {
+        height: 150px;
+    }
+    footer .phone i {
+        position: relative;
+        left: -8px;
+        font-size: 20px;
+    }
+    footer .phone .ddd {
+        position: relative;
+        left: -3px;
+        font-size: 15px;
+    }
+    footer .phone .numero {
+        position: relative;
+        left: 0; 
+        font-size: 20px;
+    }
+    footer .email i {
+        position: relative;
+        left: -39px;
+        top: -4px;
+        font-size: 17px;
+    }
+    footer .email a {
+        position: relative;
+        left: -35px;
+        top: -3px;
+        font-size: 18px;
+    }
+    footer .endereco h4 {
+        position: relative;
+        left: -4px;
+        top: 26px;
+        font-size: 15px;
+    }
+    footer .local i {
+        position: relative;
+        top: -61px;
+        left: -104px;
+        font-size: 20px;
+    }
+    footer .local h4 {
+        text-transform: lowercase;
+        position: relative;
+        top: -62px;
+        left: -97px;
+        font-size: 18px;
+    }
+    footer .row-vermelha-escura {
+        height: 900px;
+    }
+    footer .horarios {
+        position: relative;
+        top: -387px;
+        left: -104px;
+    }
+    footer .horarios-texto {
+        position: relative;
+        top: -381px;
+        left: -104px;
+    }
+    footer .col-links ul {
+        display: inline;
+        position: relative;
+        top: 356px;
+        left: -4px;
+    }
+}

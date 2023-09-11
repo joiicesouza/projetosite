@@ -1,0 +1,237 @@
+html, body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+
+.navbar {
+    z-index: 2;
+}
+.navbar-brand img {
+    position: relative;
+    bottom: 83px;
+    left: 90px;
+    z-index: 3;
+}
+.navbar .nav-link {
+    margin: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'OpenSans';
+    font-weight: 200;
+}
+
+.navbar .nav-link:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    opacity: 0.4;
+}
+
+.carousel {
+    position: relative;
+    bottom: 122px;
+    z-index: 1;
+}
+
+.carousel-control-prev .carousel-control-next:hover {
+    background-color: transparent;
+    transition: 0.5s;
+    opacity: 0.7; 
+}
+
+footer {
+	margin-top: -122px;
+}
+footer .row-vermelha {
+	height: 122px;
+	background-color: #BF2C37;
+}
+footer .drive-thru h4 {
+	left: 50px;
+    position: relative;
+    top: 45px;
+	font-size: 33px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    font-family: 'OpenSans-Light';
+}
+footer .reserve {
+	left: 30px;
+    margin: 0;
+    position: relative;
+    top: 30px;
+    display: flex;
+    letter-spacing: -1px;
+    font-size: 33px;
+    color: #FFFFFF;
+    font-family: 'OpenSans-Light';
+}
+footer .reserve i {
+	right: 10px;
+	font-size: 50px;
+    position: relative;
+	top: 3px;
+}
+footer .lojas {
+	position: relative;
+    top: 40px;
+    right: 85px;
+    letter-spacing: -1px;
+    font-size: 23px;
+    font-family: 'OpenSans-Light';
+}
+footer .lojas button {
+	background-color: #BF2C37;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+footer .lojas button:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+}
+footer .row-vermelha-clara {
+	height: 33px;
+	background-color: #BF2C37;
+	opacity: 0.9;
+}
+footer .phone {
+	font-family: 'OpenSans-Light';
+	color: #FFFFFF;
+	position: relative;
+	display: flex;
+}
+footer .phone i {
+	position: relative;
+	font-size: 20px;
+	top: 8px;
+    left: 150px;
+}
+footer .ddd {
+	left: 157px;
+    top: 10px;
+	position: relative;
+	font-size: 16px;
+}
+footer .numero {
+	top: 6px;
+    left: 160px;
+	font-size: 20px;
+	position: relative;
+}
+footer .email i {
+	color: #FFFFFF;
+	position: relative;
+	top: 5px;
+	left: 135px;
+}
+footer .email a {
+	left: 140px;
+	font-family: 'OpenSans-Light';
+	color: #FFFFFF;
+	position: relative;
+	top: 5px;
+	text-decoration: none;
+}
+footer .email:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+}
+footer .endereco h4 {
+	position: relative;
+	top: 10px;
+	left: 110px;
+	font-size: 13px;
+	font-family: 'OpenSans-Light';
+	color: #FFFFFF;
+}
+footer .local {
+	left: 100px;
+	top: 8px;
+	position: relative;
+	display: flex;
+	color: #FFFFFF;
+}
+footer .local:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+}
+footer .local h4 {
+	font-size: 15px;
+	font-family: 'OpenSans-Light';
+}
+footer .local i {
+	position: relative;
+	right: 6px;
+	font-size: 18px;
+}
+footer .row-vermelha-escura {
+	padding: 0;
+	background-color: #891B25;
+	height: 300px;
+}
+footer .col-links ul {
+	position: relative;
+	left: 150px;
+	top: 20px;
+	text-align: left;
+}
+footer .col-links a {
+	font-size: 15px;
+	font-family: 'OpenSans-Light';
+	color: #FFFFFF;
+	text-decoration: none;
+}
+footer a:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+}
+footer .col-get-in-touch {
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+footer .col-get-in-touch i {
+	font-size: 25px;
+	color: #FFFFFF;
+	margin: 0 6px;
+}
+footer .col-get-in-touch li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .horarios {
+	display: inline-flex;
+	color: #FFFFFF;
+}
+footer .horarios span {
+	position: relative;
+	left: 95px;
+    top: 17px;
+}
+footer .horarios p {
+	position: relative;
+	top: 15px;
+	left: 100px;
+	font-size: 18px;
+	font-family: 'OpenSans-Light';
+}
+footer .horarios-texto {
+	font-family: 'OpenSans-Light';
+	color: #FFFFFF;
+	font-size: 14px;
+	font-style: bold;
+}
+footer .horarios-texto p {
+	position: relative;
+	left: 100px;
+	top: 5px;
+}
