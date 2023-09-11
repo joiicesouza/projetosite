@@ -1,2 +1,2 @@
 # Projeto Site
-Estou desenvolvendo um site ficticio para estudo. Neste projeto utilizei HTML, CSS e Bootstrap e Font Awesome.
+Estou desenvolvendo um site ficticio para estudo. Buscando aperfeiçoar as minhas habilidades na área de desenvolvimento front-end, estou desenvolvendo um site totalmente responsivo. Ele se adapta tanto ao desktop como aos smartphones, que atualmente, são os dispositivos mais utilizados para navegar na internet. Neste projeto utilizei até o momento: HTML, CSS, BOOTSTRAP e FontAwesome e a biblioteca do Google para icones. 
