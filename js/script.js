@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("button").click(function(){
+    $(".navbar-toggler").click(function(){
       $(".navbar-brand").toggle();
     });
   });

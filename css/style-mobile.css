@@ -104,21 +104,24 @@
         top: 26px;
         font-size: 15px;
     }
+    footer .local {
+        left: 0;
+    }
     footer .local i {
         position: relative;
-        top: -61px;
-        left: -104px;
+        top:-61px;
+        left: -4px;
         font-size: 20px;
     }
     footer .local h4 {
         text-transform: lowercase;
         position: relative;
         top: -62px;
-        left: -97px;
+        left: 4px;
         font-size: 18px;
     }
     footer .row-vermelha-escura {
-        height: 900px;
+        height: 829px;
     }
     footer .horarios {
         position: relative;
@@ -133,7 +136,7 @@
     footer .col-links ul {
         display: inline;
         position: relative;
-        top: 356px;
+        top: 288px;
         left: -4px;
     }
 }
